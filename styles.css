@@ -1,0 +1,97 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: 24px;
+}
+
+body{
+	font-family: sans-serif;
+	min-height: 100vh;
+	background-color: #CDCDCD;
+}
+.heading{
+background-color: black;
+font-size: 24px;
+padding:20px;
+color: #fff;
+}	
+
+.buttons{
+	display: flex;
+	justify-content: center;
+}
+
+.button{
+padding:10px;
+padding-left: 20px;
+padding-right: 20px;
+background-color: black;
+color: #fff;
+margin: 32px;
+}
+
+.search{
+	display: flex; 
+	justify-content: center;
+	margin-top: 10px;
+	height: 52px;
+ 
+}
+
+.search-bar{
+		width:85%;
+	}
+	
+#search-Btn{
+	background-color: black;
+	color: #fff;
+	padding: 4px;
+	margin : 0px 0px 0px 10px;
+	padding:10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+table{
+	margin: 30px auto;
+	border:  1px solid black;
+	border-collapse: collapse;
+	background: #D9D9D9;
+	width: 95%;
+	
+}
+
+table th{
+	padding: 10px 0;
+	background-color: #D9D9D9;
+	border:  1px solid black;
+	border-collapse: collapse;
+}
+
+table td{
+	padding: 3px;
+	border:  1px solid black;
+	border-collapse: collapse;
+	width: 10%;
+	background-color: #D9D9D9;
+}
+th.id{
+	width: 5%;
+	justify-content: center;
+}
+
+th#name{
+	width: 30%;
+}
+
+th.passing{
+padding: 0px 40px 0px 40px;
+}
+
+table img{
+	width:  10%;
+	border-radius: 50%;
+	border: 0.5px solid black;
+}
